@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aca9a9;
+    color: rgba(0, 0, 0, 1);
+}
+
+div.interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 30px;
+    position: relative;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 40pt;
+    color: #606060;
+    text-shadow: 1px 1px 2px rgba(5, 5, 5, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+header#cabecalho p {
+    font-family: 'Titillium Web', sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #525151;
+    text-shadow: 1px 1px 2px rgb(5, 5, 5);
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+table#tabela-veiculos {
+    border: 1px solid #444343;
+    border-spacing: 5px;
+    position: relative;
+    height: 50px;
+}
+
+table#tabela-veiculos td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+}
+
+table#tabela-veiculos img#corolla {
+    width: 100%;
+    height: 100%;
+}
+
+table#tabela-veiculos img#etios {
+    width: 80%;
+    height: 50%;
+}
+
+table#tabela-veiculos img#classec {
+    width: 100%;
+    height: 100%;
+}
+
+table#tabela-veiculos img#santafe {
+    width: 100%;
+    height: 100%;
+}
+
+table#tabela-veiculos td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    font-weight: bold;
+}
+
+table#tabela-veiculos td.cd {
+    background-color: #cecece;
+
+}
