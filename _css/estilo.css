@@ -48,7 +48,7 @@ h2 {
 }
 
 table#tabela-veiculos {
-    border: 1px solid #444343;
+    border: 3px solid #444343;
     border-spacing: 5px;
     position: relative;
     height: 50px;
